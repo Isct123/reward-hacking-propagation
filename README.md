@@ -51,8 +51,6 @@ private prompts and example histories aren't in this repo. rerunning the origina
 python -m jupyterlab experiments.ipynb
 ```
 
-open from the repo folder, then run cells in order. calls cost money; no spending limit built in. generated code runs locally, so use a disposable environment. old model IDs may no longer work, and new runs can differ.
-
 ## what's here
 
 - `experiments.ipynb`: main experiment + follow-up (RQ3)
@@ -65,4 +63,4 @@ open from the repo folder, then run cells in order. calls cost money; no spendin
 python -m unittest discover -s tests -v
 ```
 
-notes: `sycophancy` means how much an agent is told to defer to peers. SWE-bench checks look at behavior only; repository tests weren't run. history hashes are references, not checked by the loader. zero cost fields in new logs are placeholders.
+notes: `sycophancy` means how much an agent is told to defer to peers. SWE-bench checks look at behavior only; repository tests weren't run. history hashes are references, not checked by the loader.
