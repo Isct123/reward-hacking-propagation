@@ -1,4 +1,4 @@
-"""Operational detector used for the paper's exploit-family labels."""
+"""spot test-gaming patterns in submitted code"""
 
 from __future__ import annotations
 

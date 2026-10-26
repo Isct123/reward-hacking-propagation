@@ -1,4 +1,4 @@
-"""download pinned ImpossibleBench + apply import fixes"""
+"""download the experiment version of ImpossibleBench"""
 import io
 import json
 import sys

@@ -1,4 +1,4 @@
-"""Deterministic percentile bootstrap over matched run-level contrasts."""
+"""bootstrap uncertainty estimates from paired runs"""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Frozen six-agent topology and visibility implementation."""
+"""six-agent networks and who can see whose posts"""
 
 from __future__ import annotations
 
