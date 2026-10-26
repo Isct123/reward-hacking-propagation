@@ -1,0 +1,7 @@
+mode,task_source,n_cases,adopter_minus_matched_honest,ci_low,ci_high
+reset,impossiblebench_trigger,26,-0.07692307692307693,-0.23076923076923078,0.07692307692307693
+reset,livecodebench_clean,26,0.0,0.0,0.0
+reset,swebench_verified_audit,26,0.0,0.0,0.0
+self_history,impossiblebench_trigger,26,0.15384615384615385,0.038461538461538464,0.3076923076923077
+self_history,livecodebench_clean,26,0.0,0.0,0.0
+self_history,swebench_verified_audit,26,0.0,0.0,0.0

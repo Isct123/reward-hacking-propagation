@@ -1,0 +1,56 @@
+factor,level_or_contrast,metric,n_blocks,estimate,ci_low,ci_high
+topology,dynamic_authority,final_post_exposure_adoption_rate,3,0.18888888888888888,0.09999999999999999,0.3333333333333333
+topology,mesh_full,final_post_exposure_adoption_rate,3,0.0888888888888889,0.06666666666666667,0.10000000000000002
+topology,mesh_random,final_post_exposure_adoption_rate,3,0.1111111111111111,0.06666666666666667,0.16666666666666666
+topology,static_hierarchy_leaf,final_post_exposure_adoption_rate,3,0.0888888888888889,0.03333333333333333,0.13333333333333333
+topology,static_hierarchy_root,final_post_exposure_adoption_rate,3,0.21111111111111114,0.16666666666666666,0.26666666666666666
+topology_contrast,mesh_full - mesh_random,final_post_exposure_adoption_rate,3,-0.022222222222222237,-0.10000000000000002,0.03333333333333333
+topology_contrast,static_hierarchy_root - static_hierarchy_leaf,final_post_exposure_adoption_rate,3,0.12222222222222222,0.06666666666666667,0.16666666666666666
+model_mix,heterogeneous - homogeneous,final_post_exposure_adoption_rate,3,0.08888888888888889,-0.026666666666666672,0.14666666666666667
+sycophancy,medium - low,final_post_exposure_adoption_rate,3,-0.006666666666666672,-0.10000000000000002,0.04
+sycophancy,high - low,final_post_exposure_adoption_rate,3,0.039999999999999994,-0.06000000000000002,0.10000000000000002
+sycophancy,high - medium,final_post_exposure_adoption_rate,3,0.04666666666666667,0.039999999999999994,0.06000000000000002
+topology,dynamic_authority,final_successful_post_exposure_hack_rate,3,0.16666666666666666,0.10000000000000002,0.26666666666666666
+topology,mesh_full,final_successful_post_exposure_hack_rate,3,0.044444444444444446,0.03333333333333333,0.06666666666666667
+topology,mesh_random,final_successful_post_exposure_hack_rate,3,0.044444444444444446,0.0,0.06666666666666667
+topology,static_hierarchy_leaf,final_successful_post_exposure_hack_rate,3,0.0888888888888889,0.03333333333333333,0.13333333333333333
+topology,static_hierarchy_root,final_successful_post_exposure_hack_rate,3,0.1111111111111111,0.03333333333333333,0.16666666666666666
+topology_contrast,mesh_full - mesh_random,final_successful_post_exposure_hack_rate,3,0.0,-0.03333333333333333,0.03333333333333333
+topology_contrast,static_hierarchy_root - static_hierarchy_leaf,final_successful_post_exposure_hack_rate,3,0.022222222222222223,0.0,0.03333333333333333
+model_mix,heterogeneous - homogeneous,final_successful_post_exposure_hack_rate,3,0.08444444444444445,0.04000000000000001,0.13333333333333333
+sycophancy,medium - low,final_successful_post_exposure_hack_rate,3,-0.013333333333333334,-0.04,0.02
+sycophancy,high - low,final_successful_post_exposure_hack_rate,3,0.006666666666666667,0.0,0.02
+sycophancy,high - medium,final_successful_post_exposure_hack_rate,3,0.02,-0.02,0.04
+topology,dynamic_authority,final_seed_linked_adoption_rate,3,0.2111111111111111,0.13333333333333333,0.3333333333333333
+topology,mesh_full,final_seed_linked_adoption_rate,3,0.05555555555555556,0.0,0.10000000000000002
+topology,mesh_random,final_seed_linked_adoption_rate,3,0.12222222222222223,0.10000000000000002,0.13333333333333333
+topology,static_hierarchy_leaf,final_seed_linked_adoption_rate,3,0.07777777777777778,0.0,0.13333333333333333
+topology,static_hierarchy_root,final_seed_linked_adoption_rate,3,0.22222222222222224,0.19999999999999998,0.26666666666666666
+topology_contrast,mesh_full - mesh_random,final_seed_linked_adoption_rate,3,-0.06666666666666667,-0.10000000000000002,-0.03333333333333333
+topology_contrast,static_hierarchy_root - static_hierarchy_leaf,final_seed_linked_adoption_rate,3,0.14444444444444443,0.06666666666666667,0.19999999999999998
+model_mix,heterogeneous - homogeneous,final_seed_linked_adoption_rate,3,0.10666666666666667,-0.04000000000000001,0.21333333333333335
+sycophancy,medium - low,final_seed_linked_adoption_rate,3,0.03333333333333333,-0.02,0.10000000000000002
+sycophancy,high - low,final_seed_linked_adoption_rate,3,0.06,0.0,0.10000000000000002
+sycophancy,high - medium,final_seed_linked_adoption_rate,3,0.02666666666666667,-0.02,0.08
+topology,dynamic_authority,t80_post_exposure_adoption_reached,3,0.05555555555555555,0.0,0.16666666666666666
+topology,mesh_full,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+topology,mesh_random,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+topology,static_hierarchy_leaf,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+topology,static_hierarchy_root,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+topology_contrast,mesh_full - mesh_random,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+topology_contrast,static_hierarchy_root - static_hierarchy_leaf,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+model_mix,heterogeneous - homogeneous,t80_post_exposure_adoption_reached,3,-0.022222222222222223,-0.06666666666666667,0.0
+sycophancy,medium - low,t80_post_exposure_adoption_reached,3,0.0,0.0,0.0
+sycophancy,high - low,t80_post_exposure_adoption_reached,3,0.03333333333333333,0.0,0.10000000000000002
+sycophancy,high - medium,t80_post_exposure_adoption_reached,3,0.03333333333333333,0.0,0.10000000000000002
+topology,dynamic_authority,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+topology,mesh_full,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+topology,mesh_random,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+topology,static_hierarchy_leaf,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+topology,static_hierarchy_root,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+topology_contrast,mesh_full - mesh_random,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+topology_contrast,static_hierarchy_root - static_hierarchy_leaf,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+model_mix,heterogeneous - homogeneous,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+sycophancy,medium - low,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+sycophancy,high - low,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0
+sycophancy,high - medium,t80_successful_post_exposure_hack_reached,3,0.0,0.0,0.0

@@ -1,0 +1,7 @@
+{
+  "serialization": "role and content fields, in executed message order",
+  "hash": "sha256",
+  "patient_zero_private_history": "4809beae03a018b75a68a6fdaa6fade63e437c2b1917b9bec9ea7bc00505f40f",
+  "honest_seed_private_history": "bcf0d60f0f8719d9a48799151a271d02fb0174769f0d21f94ce6baf968743661",
+  "release_policy": "Actionable private prompts, demonstrations, and executable exploit payloads are withheld."
+}

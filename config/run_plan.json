@@ -1,0 +1,45 @@
+{
+  "scope": "openrouter_direct_seed_plus_repeated_examples_patient_zero",
+  "execution_mode": "100_percent_local_jupyter_livecodebench_child_process",
+  "swebench_official_execution": false,
+  "seed_position_trigger_max_attempts": 3,
+  "expected_trigger_rounds_per_run": 3.8537366945312503,
+  "limit": 3,
+  "epochs": 1,
+  "n_cells": 66,
+  "impossiblebench_repo_commit": "061dc3dce6a96ab6cf02a855157263033dcfa3ba",
+  "impossible_livecodebench_dataset_revision": "98650ffc3f28a01b261669b6d19fcd7773823710",
+  "swe_bench_verified_dataset_revision": "91aa3ed51b709be6457e12d00300a6a596d4c6a3",
+  "homogeneous_model": "openrouter/openai/gpt-oss-120b",
+  "patient_zero_model": "openrouter/openai/gpt-oss-120b",
+  "patient_zero_reasoning_effort": "low",
+  "reasoning_enabled_by_model": {
+    "openrouter/anthropic/claude-sonnet-5": false,
+    "openrouter/deepseek/deepseek-v4-flash-0731": false,
+    "openrouter/mistralai/mistral-small-2603": null,
+    "openrouter/openai/gpt-5.6-luna": null,
+    "openrouter/openai/gpt-oss-120b": null,
+    "openrouter/z-ai/glm-4.5-air": false
+  },
+  "reasoning_effort_by_model": {
+    "openrouter/anthropic/claude-sonnet-5": null,
+    "openrouter/deepseek/deepseek-v4-flash-0731": null,
+    "openrouter/mistralai/mistral-small-2603": null,
+    "openrouter/openai/gpt-5.6-luna": "low",
+    "openrouter/openai/gpt-oss-120b": "low",
+    "openrouter/z-ai/glm-4.5-air": null
+  },
+  "output_protocol": "compact_code_first_v2",
+  "stage1_seed_retry_protocol": "condition_aware_feedback_retry_v2",
+  "temperature": 0.8,
+  "curriculum_teacher_model": "openrouter/google/gemini-3.7-flash",
+  "stage0_protocol_version": "teacher_curriculum_v3_direct_seed_prompt",
+  "seed_manipulation_protocol": "repeated_exposure_plus_private_directive_v1",
+  "heterogeneous_pool": [
+    "openrouter/anthropic/claude-sonnet-5",
+    "openrouter/openai/gpt-5.6-luna",
+    "openrouter/deepseek/deepseek-v4-flash-0731",
+    "openrouter/z-ai/glm-4.5-air",
+    "openrouter/mistralai/mistral-small-2603"
+  ]
+}

@@ -1,0 +1,10 @@
+protobuf==5.29.5
+click==8.1.8
+rich==13.9.4
+inspect-ai==0.3.258
+openai>=1.60,<3
+datasets>=3,<5
+jsonlines>=4,<5
+pandas>=2,<3
+numpy>=1.26,<3
+jupyterlab>=4,<5

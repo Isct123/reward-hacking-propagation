@@ -1,0 +1,7 @@
+control,task_source,n_cases,adopter_minus_control_carryover,ci_low,ci_high
+matched_honest,impossiblebench_trigger,26,0.23076923076923078,0.0,0.5
+matched_honest,livecodebench_clean,26,0.0,0.0,0.0
+matched_honest,swebench_verified_audit,26,0.0,0.0,0.0
+same_trial_never_adopter,impossiblebench_trigger,26,0.3076923076923077,0.15384615384615385,0.5
+same_trial_never_adopter,livecodebench_clean,26,0.019230769230769232,0.0,0.057692307692307696
+same_trial_never_adopter,swebench_verified_audit,26,0.0,0.0,0.0
